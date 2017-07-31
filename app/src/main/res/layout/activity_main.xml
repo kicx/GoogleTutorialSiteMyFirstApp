@@ -23,11 +23,12 @@
         android:id="@+id/button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/button_send"
-        app:layout_constraintLeft_toRightOf="@+id/editText"
-        tools:layout_editor_absoluteY="16dp"
-        app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        app:layout_constraintHorizontal_bias="0.0" />
+        android:onClick="sendMessage"
+        android:text="@string/button_send"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/editText"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
 </android.support.constraint.ConstraintLayout>
