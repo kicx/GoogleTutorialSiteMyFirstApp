@@ -15,4 +15,11 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
+
+    <fragment
+        android:name="com.dreams.foggy.googletutorialsitemyfirstapp.ArticleFragment"
+        android:id="@+id/article_fragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+
 </android.support.constraint.ConstraintLayout>
